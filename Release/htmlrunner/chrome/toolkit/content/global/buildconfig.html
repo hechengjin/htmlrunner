@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width; user-scalable=false;">
+  <title>about:buildconfig</title>
+  <link rel="stylesheet" href="chrome://global/skin/about.css" type="text/css">
+  <style type="text/css">
+    th { text-align: start; }
+    h2 { margin-top: 1.5em; }
+    th, td { vertical-align: top; }
+  </style>
+</head>
+<body class="aboutPageWideContainer">
+<h1>about:buildconfig</h1>
+<h2>Build Machine</h2>
+<p>hechengjin</p>
+<h2>Source</h2>
+<p>Built from <a href="http://hg.mozilla.org/releases/mozilla-esr38/rev/e93aeb25e2a4">http://hg.mozilla.org/releases/mozilla-esr38/rev/e93aeb25e2a4</a></p>
+<h2>Build platform</h2>
+<table>
+  <tbody>
+    <tr>
+      <th>target</th>
+    </tr>
+    <tr>
+      <td>i686-pc-mingw32</td>
+    </tr>
+  </tbody>
+</table>
+<h2>Build tools</h2>
+<table>
+  <tbody>
+    <tr>
+      <th>Compiler</th>
+      <th>Version</th>
+      <th>Compiler flags</th>
+    </tr>
+    <tr>
+      <td>cl</td>
+      <td>1800</td>
+      <td>-TC -nologo -D_HAS_EXCEPTIONS=0 -W3 -Gy -arch:IA32 -FS -wd4244 -wd4267 -wd4819 -we4553</td>
+    </tr>
+    <tr>
+      <td>cl</td>
+      <td>1800</td>
+      <td> -TP -nologo -D_HAS_EXCEPTIONS=0 -W3 -Gy -arch:IA32 -FS -wd4251 -wd4244 -wd4267 -wd4345 -wd4351 -wd4482 -wd4800 -wd4819 -we4553 -GR-  -DNDEBUG -DTRIMMED -Zi -UDEBUG -DNDEBUG -O1 -Oi -Oy </td>
+    </tr>
+  </tbody>
+</table>
+<h2>Configure arguments</h2>
+<p> --enable-crashreporter --enable-release --enable-application=xulrunner --enable-jemalloc --disable-tests</p>
+</body>
+</html>

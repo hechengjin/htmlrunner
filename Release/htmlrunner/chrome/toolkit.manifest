@@ -1,0 +1,17 @@
+content cookie toolkit/content/cookie/
+content formautofill toolkit/content/formautofill/
+content global toolkit/content/global/ contentaccessible=yes
+content global-platform toolkit/content/global-platform/ platform
+content global-region toolkit/content/global-region/
+content mozapps toolkit/content/mozapps/
+content passwordmgr toolkit/content/passwordmgr/
+content satchel toolkit/content/satchel/
+content xbl-marquee toolkit/content/xbl-marquee/
+override chrome://global/content/nsTransferable.js chrome://global/content/nsDragAndDrop.js
+resource gre-resources toolkit/res/
+skin global classic/1.0 toolkit/skin/classic/aero/global/ os=WINNT osversion>=6
+skin global classic/1.0 toolkit/skin/classic/global/ os!=WINNT
+skin global classic/1.0 toolkit/skin/classic/global/ os=WINNT osversion<6
+skin mozapps classic/1.0 toolkit/skin/classic/aero/mozapps/ os=WINNT osversion>=6
+skin mozapps classic/1.0 toolkit/skin/classic/mozapps/ os!=WINNT
+skin mozapps classic/1.0 toolkit/skin/classic/mozapps/ os=WINNT osversion<6
