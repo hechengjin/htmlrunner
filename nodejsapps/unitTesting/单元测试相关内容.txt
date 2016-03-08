@@ -1,0 +1,11 @@
+1.错误处理
+throw new Error('错误信息')
+
+2.钩子实现
+
+3.位运算测试
+// nsMsgMessageFlags
+    // https://dxr.mozilla.org/comm-central/source/mailnews/base/public/nsMsgMessageFlags.idl
+    // console.log(`OnItemPropertyFlagChanged--- ${aOldValue ^ aNewValue}`)
+    
+4.异步操作 用传参 防止全局变量在异步未完成时相关值已经发生改变
