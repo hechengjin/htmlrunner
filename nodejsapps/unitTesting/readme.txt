@@ -1,4 +1,8 @@
 运行pathtohere.bat
+
+E:\zhaomokeje\htmlrunner\nodejs\npm npm install -g mocha   找不到去掉  -g 然后用
+E:\zhaomokeje\htmlrunner\nodejsapps\unitTesting>E:\zhaomokeje\htmlrunner\nodejsapps\unitTesting\node_modules\.bin\mocha
+
 命令行下进入当前目录
 安装expect
 E:\zhaomokeje\htmlrunner\nodejs\app\unitTesting>E:\zhaomokeje\htmlrunner\nodejs\npm install expect.js
