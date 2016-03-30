@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="chrome://global/skin" type="text/css"?>
+
+<window id="messengerWindow"
+        xmlns:html="http://www.w3.org/1999/xhtml"
+        xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+        class="BoltCustomizeDialog"
+        persist="width height screenX screenY sizemode"
+        windowtype="mail:messageWindow"
+        minwidth="800"
+        minheight="600"
+        macanimationtype="document">
+  <browser id="browser"
+           flex="1"
+           disablesecurity="true"
+           disablehistory="true"
+           autofind="false"
+           src="./messagePaneForRead.html" />
+
+</window>
