@@ -7,7 +7,7 @@ const Cu = Components.utils;
 
 Cu.import("resource://gre/modules/Log.jsm");
 const LOGGER_ID = "addons.manager";
-var logger
+let logger
 window.onload = function () {
   logger = Log.repository.getLogger(LOGGER_ID);
   logger.info($(document))  
