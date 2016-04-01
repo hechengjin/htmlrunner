@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin" type="text/css"?>
+
+<window title="Firemail"
+        xmlns:html="http://www.w3.org/1999/xhtml"
+        xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+		width="800px"
+		height="500px">
+
+  <browser id="browser"
+           flex="1"
+           disablesecurity="true"
+           disablehistory="true"
+           autofind="false"
+           src="./js/cards/index.html" />
+  <script type="application/javascript" src="./main.js"/>
+</window>
