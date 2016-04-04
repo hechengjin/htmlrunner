@@ -1,11 +1,11 @@
-1.´íÎó´¦Àí
-throw new Error('´íÎóĞÅÏ¢')
+1.é”™è¯¯å¤„ç†
+throw new Error('é”™è¯¯ä¿¡æ¯')
 
-2.¹³×ÓÊµÏÖ
+2.é’©å­å®ç°
 
-3.Î»ÔËËã²âÊÔ
+3.ä½è¿ç®—æµ‹è¯•
 // nsMsgMessageFlags
     // https://dxr.mozilla.org/comm-central/source/mailnews/base/public/nsMsgMessageFlags.idl
     // console.log(`OnItemPropertyFlagChanged--- ${aOldValue ^ aNewValue}`)
-    
-4.Òì²½²Ù×÷ ÓÃ´«²Î ·ÀÖ¹È«¾Ö±äÁ¿ÔÚÒì²½Î´Íê³ÉÊ±Ïà¹ØÖµÒÑ¾­·¢Éú¸Ä±ä
+
+4.å¼‚æ­¥æ“ä½œ ç”¨ä¼ å‚ é˜²æ­¢å…¨å±€å˜é‡åœ¨å¼‚æ­¥æœªå®Œæˆæ—¶ç›¸å…³å€¼å·²ç»å‘ç”Ÿæ”¹å˜
