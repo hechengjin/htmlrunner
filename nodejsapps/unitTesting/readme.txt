@@ -60,8 +60,21 @@ E:\zhaomokeje\htmlrunner\nodejs\npm install nodemailer
   └─┬ socks@1.1.8
     ├── ip@0.3.3
     └── smart-buffer@1.0.3
-		
+
 https://github.com/andris9  作者
 https://github.com/nodemailer  源码  https://github.com/nodemailer/nodemailer
 
+四、增加 emailjs 模块实现邮件收发 http://emailjs.org/
+4.1 增加imap模块
+E:\zhaomokeje\htmlrunner\nodejs\npm install emailjs-imap-client
+└─┬ emailjs-imap-client@2.0.2
+  ├── emailjs-addressparser@1.0.1
+  ├── emailjs-imap-handler@1.0.0
+  ├─┬ emailjs-mime-codec@1.0.2
+  │ └── emailjs-stringencoding@1.0.1
+  ├─┬ emailjs-tcp-socket@1.0.2
+  │ └── node-forge@0.6.39
+  └── emailjs-utf7@3.0.1
 
+  运行指定路径下的测试用例 mocha ./test_emailjs
+  
