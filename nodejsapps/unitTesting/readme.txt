@@ -77,4 +77,10 @@ E:\zhaomokeje\htmlrunner\nodejs\npm install emailjs-imap-client
   └── emailjs-utf7@3.0.1
 
   运行指定路径下的测试用例 mocha ./test_emailjs
-  
+
+  4.2 增加smtp模块
+  E:\zhaomokeje\htmlrunner\nodejs\npm install emailjs-smtp-client
+  └── emailjs-smtp-client@1.0.0
+
+  运行指定的测试文件
+  E:\zhaomokeje\htmlrunner\nodejsapps\unitTesting>mocha ./test_emailjs/smtpClientjs
