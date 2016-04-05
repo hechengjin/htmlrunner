@@ -8,7 +8,7 @@ describe('sentMail', function() {
 
 
 	it('should log in and send mail', function(done) {
-		this.timeout(100000)
+		this.timeout(1000000000)
 		let nm = nodemailer.createTransport({
 				host: 'smtp.139.com',
 				port: 25,
@@ -69,8 +69,9 @@ describe('sentMail', function() {
 
     //按定义时间间隔发送邮件(如每秒钟发一个)
     //setInterval setTimeout
+    let count = 0
     setInterval(() => {
-      console.log(`kkkkkkkkkkkkkkkk`)
+      console.log(`sent `, ++count)
       getMailInfo(dateString, nm).then(function(info) {
       console.log('OK: ' + i + ' '+ JSON.stringify(info))
       done()
@@ -78,7 +79,7 @@ describe('sentMail', function() {
         console.error('error:', error);
         done()
       });
-    }, 1000);
+    }, 5000);
 
   });
 
